@@ -6,5 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Subsidiary extends Model
 {
-    //
+    public function sales(){
+    	return $this->hasMany(Sale::class);
+    }
 }

@@ -14,8 +14,29 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    Bienvenido!
                 </div>
+                <table class="table table-bordered">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <a href="{{url("/client")}}">Ver Clientes</a>
+                        </td>
+                        <td>
+                            <a href="{{url("/subsidiary")}}">Ver Sucursales</a>
+                        </td>
+                        <td>
+                            <a href="{{url("/product")}}">Ver Productos</a>
+                        </td>
+                        <td>
+                            <a href="{{url("/sale")}}">Ver Ventas</a>
+                        </td>
+                        <td>
+                            <a href="{{url("/sale/create")}}">Realizar Venta</a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
